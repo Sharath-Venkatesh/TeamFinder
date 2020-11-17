@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- Page Title-->
+      <title>Add Complaints</title>
+      <!-- Import Bootstrap from CDN-->
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" name="text/css" href="css/normalize.css" />
+      <link rel="stylesheet" name="text/css" href="css/vicons-font.css" />
+      <link rel="stylesheet" name="text/css" href="css/base.css" />
+      <link rel="stylesheet" name="text/css" href="css/buttons.css" />
+      <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'  crossorigin='anonymous'>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!--Extra Theme-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <!--Import jQuary from CDN-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Extra CSS -->
+		<style>
+		body {
+			color: #37474f;
+			font-weight: 400;
+			font-size: 1em;
+			font-family: 'Raleway', Arial, sans-serif;
+		}
+		.container{
+			opacity:0.85;
+		}
+	#button123 {
+	  left: 50px;
+	} 
+		.panel > .panel-heading {
+		    background-image: none;
+		    background-color: ;
+		    color: white;
+		}
+</style>
+   </head>
+   <body background="images/search.jpg" style = "background-size:cover;">
+
+      
+      <div class="container ">
+      			<header class="codrops-header">
+				<div class="codrops-links">
+					<a class="codrops-icon codrops-icon--prev" href="members.html" title="Home"><span>Home</span></a>
+					<a class="codrops-icon codrops-icon--drop" href="" title="I'm feeling lucky"><span>I'm feeling lucky</span></a>
+				</div>
+				
+			</header>
+         <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+               <div class="panel panel-primary  w3-pale-blue ">
+                  <div class="panel-heading text-center w3-deep-purple">
+                     <h4>Search Teams</h4>
+                  </div>
+                  <div class="panel-body ">
+                     <form id="comform"  method="POST" action='hci_team.html' onchange='change()' >
+                     <div class="form-group" >
+                        <label for="usr">Subject :</label><br>
+                        <i class="fa fa-search"></i><select style="margin-left: 16px" name="subject">
+			  <option>Human Computer Interaction</option>
+			  <option>Object Oriented Modelling and Design</option>
+			  <option>Software Engineering</option>
+			  <option>Algorithms for Information retrieval</option>
+			</select>
+                     </div>
+                     <button id = "button123" class="button button--nuka button--round-r button--text-thick" type="submit" onclick="location.href = '';">Submit</button>
+                  </div>
+                  <div class="panel-footer"><br></div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </body>
+</html>
+

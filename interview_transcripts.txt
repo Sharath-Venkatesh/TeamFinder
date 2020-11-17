@@ -1,0 +1,97 @@
+kaggle team(pro):
+
+How did you guys join kaggle ?
+
+"
+Actually it was kiran's idea to join kaggle to explore the world of 
+data science. And since we were working, he convinced us to do it has a
+hobby and not take things on a serious note and see where it goes.
+
+Eventually we got good at it and here we are.
+"
+
+How was the journey on kaggle so far ?
+"
+Initially we found it quite overwhelming, we were totally oblivious
+the world of data science but every weekend or so, we all agreed on
+learning one technique, and we picked any relevant dataset we could find
+and applied what we learned so far on it and finish it up by the next week.
+
+Sometimes some us would be busy and it would be hard for them to catch up,
+so the rest of us would just brief them on what had been done.
+"
+
+
+Is there any secret rule you follow to win a competition ?
+"
+I think consistency is highly underrated when compared to someone being a genius.
+What I feel is that consistency and great teamwork will definetly yeild the expected performance.
+Most importantly me and team my should have fun in what we are doing without keeping any expectations
+on the results and not feel it as a burden.In that way we can keep going.
+"
+
+Kaggle team(amateur):
+
+What type of competitions are you focusing on ?
+"
+It depends, if we have enough knowledge about the domain only then we attempt it
+Also sometimes it happens that a few of the teammates know the concept and others dont
+so its challenging to be on the same page with everyone else.
+"
+
+How did you guys meet each other ?
+
+"
+We are college friends and we shared similar interests in this field so we decided we'll have a shot at this
+"
+
+How important are these competitions to you ?"
+"
+In the big picture, I think if everyone in the team is on the same page and consistent, this is the best learning source by solving
+real world problems
+"
+
+student:
+
+What is more important, projects or exams ?
+"
+definetly projects because the project itself is a solution to a real world problem.
+"
+
+What are your future plans ?
+"
+My future plans are right is to get good experience in natural language processing by 
+doing a lot of projects in it and pave my from there on into masters.
+"
+
+How is it to work in a team ?
+"
+If the interests align and you know them on a personal level then its amazing, but I don't think
+that will always be the case so you can definetly expect some hiccups in the beginning.
+
+Also if someone is an expert in that project domain, I feel somewhat hesitant to ask him any doubts or similar queries
+so i always prefer to join with my friends so that the informal feeling is there and the communication is smooth.
+"
+
+
+A person from the industry:
+
+How are the projects in industry different from those of college ?
+"
+Unlike college these projects demand lot of tolerance from failure because they are deployed into production. So we need to take care of
+a lot of feasibility and compatibility issues.
+"
+
+How is it to work in a team ?
+
+"
+Working in a team is great here. So much diversity in the knowledge everyone has and everybody is extremely passionate about their work, 
+but for some reason everyone likes to keep things professional
+which I think is not a mandatory criterion to great teamwork, in fact, better communication can be done if we were like friends talking to each
+other
+"
+
+What is the most important thing to be successful in a certain domain ?
+"
+great team, passion, consistency and hardwork. These things can get you through extremely difficult challenges as well
+"

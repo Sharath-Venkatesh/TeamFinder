@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<script>
+  function checkPwd(form_id){
+    var form = document.getElementById(form_id);
+    var password = form.elements['password'].value;
+    
+    if(password.length<8){
+      alert("the passwords must be minimum 8 characters long");
+      return false;
+
+  }
+}
+
+</script>
+<style>
+.container{
+	opacity:0.94;
+}
+</style>
+<head>
+	<title>TeamFinder | Login</title>
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/vicons-font.css" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/buttons.css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'  crossorigin='anonymous'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+	<style>
+		.text-center {
+		  text-align: center;
+		}
+
+
+		body {
+		  margin-top: 100px;
+
+		}
+		.panel > .panel-heading {
+		    background-image: none;
+		    background-color: ;
+		    color: white;
+		}
+
+	</style>
+</head>
+<body background="images/login.jpg" style = "background-size:cover;">
+   
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="panel panel-primary  w3-sand	 ">
+        <div class="panel-heading text-center w3-deep-purple"><h4>Login</h4>
+        </div>
+		<div class="panel-body">
+		<form id="login_info" onsubmit= "return checkPwd('login_info');" action="members.html" method="post">
+          <div class="form-group">
+            <label for="usr">Email:</label>
+            <input type="text" name="Email" placeholder="Email" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" name="password" placeholder="Password" class="form-control" id="pwd">
+          </div>
+        <input type="submit" class="btn w3-deep-purple" value="Login"><p style="float: right;">Don't have an account? <a href="signup.html">Register!</a></p><br>
+        </form>
+
+	</div>
+	<div class="panel-footer">
+      <br></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
